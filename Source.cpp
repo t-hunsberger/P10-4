@@ -11,7 +11,7 @@ bool isCardValid(int digits[], int size) {
     for (int i = size - 1; i >= 0; i -= 2) {
         sum1 += digits[i];
     }
-
+     
     // Step 2: Double every other digit and add the digits of the result
     for (int i = size - 2; i >= 0; i -= 2) {
         int doubled = digits[i] * 2;
